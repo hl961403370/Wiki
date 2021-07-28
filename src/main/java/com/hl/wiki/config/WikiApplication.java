@@ -1,12 +1,15 @@
-package com.hl.wiki;
+package com.hl.wiki.config;
 
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
+//@ComponentScan({"com.hl","com.test"})
+@ComponentScan({"com.hl"})
 @SpringBootApplication
 public class WikiApplication {
 
